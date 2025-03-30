@@ -1,0 +1,40 @@
+.sobrePage{
+    width: 100%;
+    height:900px;
+    background-color: rgb(238, 234, 234);
+    color: black;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.tableInfo{
+    width:50%;
+    margin-top: 100px;
+    flex-direction: column;
+    display: flex;
+    
+}
+.txtTitulo{
+    margin-top: 30px;
+}
+.sublinhado{
+    width: 100px;
+    height: 0;
+    border: 1px solid rgb(235, 11, 48);
+    margin-top: 20px;
+}
+.txtP1{
+    margin-top: 20px;
+}
+.txtP2{
+    margin-top: 20px;
+}
+.txtParagrafos{
+     width: 100%;
+     height: 200px;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     display: flex;
+     font-weight: bold;
+}

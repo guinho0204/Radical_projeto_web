@@ -1,0 +1,98 @@
+.progressArea{
+    width: 80%;
+    height: 40px;
+    border: 1px solid rgb(134, 134, 134);
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: rgb(49, 49, 49);
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 100px;
+}
+.progressL{
+     width: 100%;
+     height: 20px;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     background-color:  red;
+     color: white;
+     margin-right: -7px;
+     margin-left: -8px;
+
+}
+.progresS{
+    width: 100%;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    color: white;
+   
+}
+.progress{
+    width: 100%;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(133, 131, 131)  ; ;
+}
+.progressum {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    position: relative;
+    overflow: hidden;
+    margin-right: -12px;
+    color: white;
+}
+.circleum{
+    width: 57px;
+    height: 60px;
+    background-color: red ;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 18%;
+}
+.circleL{
+    width: 57px;
+    height: 60px;
+    background-color:  red;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 36%;
+}
+.circleS{
+    width: 57px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 56%;
+}
+.circleP{
+    width: 57px;
+    height: 60px;
+    background-color:rgb(133, 131, 131) ;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 76%;
+}
+.body{
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 80px;
+}

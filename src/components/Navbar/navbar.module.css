@@ -1,0 +1,103 @@
+/* ======= MENU SUPERIOR (DESKTOP) ======= */
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #33333354;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid white;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 20px;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navLinks li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* ======= BOTÃO DE MENU (MOBILE) ======= */
+  .menuButton {
+    display: none; /* Escondido no desktop */
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* ======= MENU LATERAL (MOBILE) ======= */
+  .sidebar {
+    position: fixed;
+    left: -250px; /* Escondido por padrão */
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #222;
+    color: white;
+    transition: left 0.3s ease-in-out;
+    padding-top: 60px;
+    margin-top: 60px;
+  }
+  
+  .sidebar.open {
+    left: 0; /* Mostra o menu */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  
+  .sidebar ul li {
+    padding: 15px;
+  }
+  .sidebar ul li a :hover{
+    font-size: 25px;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  
+  .closeButton {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* ======= RESPONSIVIDADE ======= */
+  @media (max-width: 768px) {
+    .menuButton {
+      display: block; /* Botão aparece no mobile */
+    }
+  
+    .navLinks {
+      display: none; /* Esconde links no mobile */
+    }
+    
+  }

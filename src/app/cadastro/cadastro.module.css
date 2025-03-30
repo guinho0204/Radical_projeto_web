@@ -1,0 +1,152 @@
+.page{
+      width:100%;
+      height:700px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column; 
+      
+      align-items: center;
+      background-color: rgb(238, 238, 238);
+}
+.center{
+    width: 50%;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:space-evenly ;
+    background-color: #f0f0f0; /* Apenas para visualização */
+    gap:20px;
+}
+.txtum{
+    width: 300px;
+    height: 60px;
+
+}
+.txtNumero{
+    width: 300px;
+    padding: 16px;
+    font-size: medium ;
+    background-color:rgb(238, 238, 238);
+    border: 0;
+    border: 1px solid rgb(177, 174, 174);
+    color: rgb(77, 76, 76);
+}
+.imageArea{
+    width: 40%;
+    height: 200px;
+    background-color: #c0c0c0;
+}
+.areaDados{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+.progressArea{
+    width: 80%;
+    height: 30px;
+    border: 1px solid rgb(134, 134, 134);
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: rgb(49, 49, 49);
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 0;
+}
+.progressL{
+     width: 100%;
+     height: 30px;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     background-color: red;
+     color: white;
+     margin-right: -7px;
+     margin-left: -8px;
+
+}
+.progress{
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(133, 131, 131);;
+   
+}
+.progressum {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    position: relative;
+    overflow: hidden;
+    margin-right: -12px;
+    color: white;
+}
+.circleum{
+    width: 57px;
+    height: 60px;
+    background-color: red ;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 18%;
+}
+.circleL{
+    width: 57px;
+    height: 60px;
+    background-color: red ;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 36%;
+}
+.circleS{
+    width: 57px;
+    height: 60px;
+    background-color: rgb(133, 131, 131)  ;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 56%;
+}
+.circleP{
+    width: 57px;
+    height: 60px;
+    background-color:rgb(133, 131, 131) ;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 76%;
+}
+.btnFoto{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgb(63, 61, 61);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+@media screen and (max-width: 1200px){
+    .areaDados{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .page{
+        width: 100%;
+        height: 900px;
+    }
+
+    .imageArea{
+        width: 250px;
+        height: 300px;
+        margin-top: 40px;
+    }
+}
